@@ -1,0 +1,72 @@
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\bin\Debug\Software.exe
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\bin\Debug\Software.pdb
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\bin\Debug\Software.xml
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\obj\x86\Debug\Software.Frame12.resources
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\obj\x86\Debug\Software.Resources.resources
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\obj\x86\Debug\Software.vbproj.GenerateResource.Cache
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\obj\x86\Debug\Software.exe
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\obj\x86\Debug\Software.xml
+c:\users\sparsh\documents\visual studio 2010\Projects\Software\Software\obj\x86\Debug\Software.pdb
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.exe
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.xml
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.pdb
+C:\Users\DELL\Downloads\Software_2\Software\Software\bin\Debug\Software.exe
+C:\Users\DELL\Downloads\Software_2\Software\Software\bin\Debug\Software.pdb
+C:\Users\DELL\Downloads\Software_2\Software\Software\bin\Debug\Software.xml
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Frame12.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Resources.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.vbproj.GenerateResource.Cache
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Login1.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Login2.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.All_Elections.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.All_Elections_Candidate.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Candidate_Profile.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Election_Results.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.New_Election.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Ongoing_Election_Admin.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Ongoing_Election_Candidate.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Open_Elections.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Previous_Elections.resources
+C:\Users\DELL\Downloads\Software_2\Software\Software\obj\x86\Debug\Software.Voter_Home_Page.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.xml
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.pdb
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\bin\Debug\Software.exe
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\bin\Debug\Software.pdb
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\bin\Debug\Software.xml
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.All_Elections.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.All_Elections_Candidate.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Frame12.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Candidate_Profile.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Election_Results.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Login1.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Login2.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Resources.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.New_Election.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Ongoing_Election_Admin.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Ongoing_Election_Candidate.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Open_Elections.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Voter_Home_Page.resources
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.vbproj.GenerateResource.Cache
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.exe
+C:\Users\Sparsh\Desktop\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Previous_Election.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.exe
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.xml
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.pdb
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\bin\Debug\Software.exe
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\bin\Debug\Software.pdb
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\bin\Debug\Software.xml
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.All_Elections.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.All_Elections_Candidate.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Frame12.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Candidate_Profile.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Election_Results.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Previous_Election.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Login1.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Login2.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Resources.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.New_Election.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Ongoing_Election_Admin.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Ongoing_Election_Candidate.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Open_Elections.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.Voter_Home_Page.resources
+D:\Downloads\Software_Ele\Software_Election\Software_Election\Software\Software\obj\x86\Debug\Software.vbproj.GenerateResource.Cache
