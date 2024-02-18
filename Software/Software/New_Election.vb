@@ -21,6 +21,14 @@ Public Class New_Election
         Button1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox_1.Size = New Size(100, 100)
         PictureBox_1.Location = New Point(20, 20)
+        Button1.BackgroundImage = My.Resources.Group_97
+        Button1.BackgroundImageLayout = ImageLayout.Stretch
+        Button1.FlatStyle = FlatStyle.Flat
+        Button1.FlatAppearance.BorderSize = 0
+        Button1.Size = New Size(242, 60)
+        Button1.Font = New Font("Consolas", 15, FontStyle.Regular)
+        Button1.ForeColor = Color.White
+        Button1.Text = "Submit"
         Me.Controls.Add(PictureBox_1)
         Dim horizontalLine As New Panel()
         With horizontalLine

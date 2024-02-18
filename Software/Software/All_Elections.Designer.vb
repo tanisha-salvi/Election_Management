@@ -60,12 +60,12 @@ Partial Class All_Elections
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Consolas", 21.0!)
+        Me.Button1.Font = New System.Drawing.Font("Consolas", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(1104, 57)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(320, 76)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "+ Add new Election"
+        Me.Button1.Text = "Add new Election"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Label3

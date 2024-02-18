@@ -52,16 +52,28 @@
 
 
 
-        RoundButton(Button1)
 
-
-
+        Button1.BackgroundImage = My.Resources.Rectangle_28
+        Button1.BackgroundImageLayout = ImageLayout.Stretch
+        Button1.FlatStyle = FlatStyle.Flat
+        Button1.FlatAppearance.BorderSize = 0
+        Button1.Size = New Size(242, 60)
+        Button1.Font = New Font("Consolas", 15, FontStyle.Regular)
+        Button1.ForeColor = Color.White
+        Button1.Text = "+ Add New Election"
+        Button1.Location = New Point(1130, 57)
         Dim adminName As String
         adminName = "Swagat Bhupendra Sathwara"
 
         Label1.Text = adminName
-
-
+        Label1.Location = New Point(160, 23)
+        Label1.Size = New Size(762, 75)
+        Label1.TextAlign = ContentAlignment.MiddleLeft
+        Label1.Font = New Font("Consolas", 30, FontStyle.Regular)
+        Label2.Location = New Point(163, 87)
+        Label2.Size = New Size(289, 41)
+        Label2.TextAlign = ContentAlignment.MiddleLeft
+        Label2.Font = New Font("Consolas", 18, FontStyle.Regular)
 
 
 

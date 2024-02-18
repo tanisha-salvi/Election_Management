@@ -172,7 +172,7 @@ Partial Class New_Election
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(474, 617)
         Me.Button1.Name = "Button1"

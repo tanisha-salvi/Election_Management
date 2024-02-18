@@ -142,6 +142,14 @@ Partial Class Previous_Election
         End With
         Label1.Text = electionData("Election_Name")
         Label2.Text = electionData("Election_Type")
+        Label1.Location = New Point(160, 23)
+        Label1.Size = New Size(762, 75)
+        Label1.TextAlign = ContentAlignment.MiddleLeft
+        Label1.Font = New Font("Consolas", 30, FontStyle.Regular)
+        Label2.Location = New Point(163, 87)
+        Label2.Size = New Size(289, 41)
+        Label2.TextAlign = ContentAlignment.MiddleLeft
+        Label2.Font = New Font("Consolas", 18, FontStyle.Regular)
         Me.Size = New Size(1435, 761)
         Dim PictureBox_1 As New PictureBox()
         PictureBox_1.Image = My.Resources.IITG_logo

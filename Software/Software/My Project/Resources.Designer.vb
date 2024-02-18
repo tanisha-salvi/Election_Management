@@ -133,6 +133,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Group_103() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Group_103", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Group_13() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Group_13", resourceCulture)
@@ -375,6 +385,16 @@ Namespace My.Resources
         Friend ReadOnly Property radio_button_checked1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("radio_button_checked1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Rectangle_28() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Rectangle_28", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

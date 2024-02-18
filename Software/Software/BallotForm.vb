@@ -190,6 +190,7 @@ Public Class Frame12
         Button1.BackgroundImage = My.Resources.Group_97
         Button1.BackgroundImageLayout = ImageLayout.Stretch
 
+
     End Sub
     Private Sub ChangeColumnWidth(ByVal tableLayoutPanel As TableLayoutPanel, ByVal columnIndex As Integer, ByVal newWidth As Integer)
         ' Check if the specified column index is valid
