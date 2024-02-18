@@ -16,23 +16,14 @@ Public Class Open_Elections
         PictureBox_1.Location = New Point(20, 20)
         Me.Controls.Add(PictureBox_1)
 
-        Dim panel1 As New Panel()
-        panel1.Size = New Size(1000 * formWidth \ 1435, PictureBox_1.Height)
-        panel1.Location = New Point(PictureBox_1.Right + 10, PictureBox_1.Top)
-        panel1.BackColor = Color.Transparent ' Set the panel's background color to transparent
-        'panel1.BorderStyle = BorderStyle.FixedSingle ' Set the panel's border style
-        panel1.Padding = New Padding(10) ' Adjust padding as needed
-
         Dim label1 As New Label()
         label1.Text = "Elections open for Registration"
-        label1.Font = New Font("Consolas", 32 * formWidth \ 1435, FontStyle.Bold) ' Adjust font as needed
-        label1.AutoSize = False
-        label1.TextAlign = ContentAlignment.MiddleCenter
-        label1.Dock = DockStyle.Fill
+        label1.Location = New Point(160, 23)
+        label1.Size = New Size(762, 75)
+        label1.TextAlign = ContentAlignment.MiddleLeft
+        label1.Font = New Font("Consolas", 30, FontStyle.Regular) ' Adjust font as needed
         label1.ForeColor = Color.Black ' Set label's text color
-        panel1.Controls.Add(label1)
-
-        Me.Controls.Add(panel1)
+        Me.Controls.Add(label1)
 
         Dim horizontalLine As New Panel()
         With horizontalLine

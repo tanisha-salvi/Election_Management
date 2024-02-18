@@ -47,16 +47,18 @@ Public Class Ongoing_Election_Candidate
         ' Create the label for the election
         Dim lblElection As New Label
         lblElection.Text = "Gymkhana Election"
-        lblElection.Font = New Font("Consolas", 32, FontStyle.Regular)
-        lblElection.Size = New Size(Me.Width / 2, 50)
-        lblElection.Location = New Point(200, 30)
+        lblElection.Font = New Font("Consolas", 30, FontStyle.Regular)
+        lblElection.Size = New Size(762, 75)
+        lblElection.Location = New Point(160, 23)
+        lblElection.TextAlign = ContentAlignment.MiddleLeft
         Me.Controls.Add(lblElection)
 
         Dim lblElection2 As New Label
         lblElection2.Text = "Ongoing Election"
-        lblElection2.Font = New Font("Consolas", 16, FontStyle.Regular)
-        lblElection2.Size = New Size(Me.Width / 2, 50)
-        lblElection2.Location = New Point(205, 90)
+        lblElection2.Font = New Font("Consolas", 18, FontStyle.Regular)
+        lblElection2.Size = New Size(289, 41)
+        lblElection2.Location = New Point(163, 87)
+        lblElection2.TextAlign = ContentAlignment.MiddleLeft
         Me.Controls.Add(lblElection2)
 
         Dim votingOngoingBox As New PictureBox()

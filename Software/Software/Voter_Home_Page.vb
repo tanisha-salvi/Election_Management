@@ -3,9 +3,6 @@ Public Class Voter_Home_Page
     Dim WithEvents Back_Button As New Button()
     Private leftButtons(100) As Button ' Array to hold the 10 buttons for the left side
     Private rightButtons(100) As Button ' Array to hold the 10 buttons for the right side
-    'Private leftPanel As New Panel
-    'Private rightPanel As New Panel
-
 
     Private Sub Voter_Home_Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
         Dim formWidth As Integer = 1435
@@ -32,31 +29,25 @@ Public Class Voter_Home_Page
         PictureBox_1.Location = New Point(20, 20)
         Me.Controls.Add(PictureBox_1)
 
-        Dim panel1 As New Panel()
-        panel1.Size = New Size(1000 * formWidth \ 1435, PictureBox_1.Height)
-        panel1.Location = New Point(PictureBox_1.Right + 20, PictureBox_1.Top)
-        panel1.BackColor = Color.Transparent ' Set the panel's background color to transparent
-        'panel1.BorderStyle = BorderStyle.FixedSingle ' Set the panel's border style
-        panel1.Padding = New Padding(40) ' Adjust padding as needed
+
 
         Dim label1 As New Label()
-        label1.Text = "Piyush Galve"
-        label1.Font = New Font("Consolas", 34 * formWidth \ 1435, FontStyle.Bold) ' Adjust font as needed
-        label1.AutoSize = True
-        label1.Location = New Point(0, 0) ' Adjust the location of label1
+        label1.Text = "Piyush Gulve"
+        label1.Size = New Size(762, 75)
+        label1.TextAlign = ContentAlignment.MiddleLeft
+        label1.Font = New Font("Consolas", 30, FontStyle.Regular) ' Adjust font as needed
+        label1.Location = New Point(160, 23) ' Adjust the location of label1
         label1.ForeColor = Color.Black ' Set label's text color
-        panel1.Controls.Add(label1)
+        Me.Controls.Add(label1)
 
         Dim label2 As New Label()
         label2.Text = "Voter"
-        label2.Font = New Font("Consolas", 20 * formWidth \ 1435) ' Adjust font as needed
-        label2.AutoSize = True
-        label2.Location = New Point(0, label1.Bottom) ' Adjust the location of label2
-        label2.Padding = New Padding(5)
+        label2.TextAlign = ContentAlignment.MiddleLeft
+        label2.Size = New Size(289, 41)
+        label2.Font = New Font("Consolas", 18, FontStyle.Regular) ' Adjust font as needed
+        label2.Location = New Point(163, 87) ' Adjust the location of label2
         label2.ForeColor = Color.Black ' Set label's text color
-        panel1.Controls.Add(label2)
-
-        Me.Controls.Add(panel1)
+        Me.Controls.Add(label2)
 
         Dim horizontalLine As New Panel()
         With horizontalLine
@@ -94,16 +85,19 @@ Public Class Voter_Home_Page
             leftButtons(i) = buttonLeft
 
             Dim buttonRight As New Button()
-            buttonRight.Image = New Bitmap(My.Resources.fingerprint, New Size(35, 35)) ' Resize the image to 35x35
-            buttonRight.ImageAlign = ContentAlignment.MiddleRight
-            buttonRight.ForeColor = Color.White
+            buttonRight.BackgroundImage = My.Resources.Group_59
+            buttonRight.BackgroundImageLayout = ImageLayout.Zoom
+            'buttonRight.Image = New Bitmap(My.Resources.fingerprint, New Size(35, 35)) ' Resize the image to 35x35
+            'buttonRight.ImageAlign = ContentAlignment.MiddleRight
+            buttonRight.BackColor = Color.White
             buttonRight.Name = (i + 1).ToString()
-            buttonRight.Text = "Vote now "
-            buttonRight.BackColor = ColorTranslator.FromHtml("#74A6FF")
-            buttonRight.Font = New Font("Consolas", 19 * formWidth \ 1435, FontStyle.Bold)
+            'buttonRight.Text = "Vote now "
+            'buttonRight.BackColor = ColorTranslator.FromHtml("#74A6FF")
+            'buttonRight.Font = New Font("Consolas", 19 * formWidth \ 1435, FontStyle.Bold)
             buttonRight.FlatStyle = FlatStyle.Flat
             buttonRight.FlatAppearance.BorderSize = 0
-            buttonRight.Size = New Size(350 * formWidth \ 1435, 70 * formHeight \ 761) ' Adjust button size as needed
+            'buttonRight.Size = New Size(100, 30)
+            buttonRight.Size = New Size(250 * formWidth \ 1435, 70 * formHeight \ 761) ' Adjust button size as needed
             buttonRight.Padding = New Padding(0, 0, 20, 0) ' Adjust the right padding to create space between the image and text
             buttonRight.Location = New Point((buttonPanel.Width - 400 * formWidth \ 1435 - 50 * formWidth \ 1435), (80 * (i - 1) + 10) * formHeight \ 761) ' Adjust button location as needed
             AddHandler buttonRight.Click, AddressOf Right_Button_Click
@@ -111,10 +105,10 @@ Public Class Voter_Home_Page
             rightButtons(i) = buttonRight
 
             ' Subscribe to the MouseDown event of the fingerprint button
-            AddHandler buttonRight.MouseDown, Sub()
-                                                  ' Change the text of the button to "Applied"
-                                                  buttonRight.Text = "Voted"
-                                              End Sub
+            'AddHandler buttonRight.MouseDown, Sub()
+            ' Change the text of the button to "Applied"
+            'buttonRight.Text = "Voted"
+            'End Sub
         Next
     End Sub
 

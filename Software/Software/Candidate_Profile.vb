@@ -24,6 +24,12 @@ Public Class Candidate_Profile
             .Width = Me.ClientSize.Width
         End With
         Me.Controls.Add(horizontalLine)
+
+        Label1.Location = New Point(140, 50)
+        Label1.Size = New Size(762, 75)
+        Label1.TextAlign = ContentAlignment.MiddleLeft
+        Label1.Font = New Font("Consolas", 24, FontStyle.Regular)
+
     End Sub
 
     Private Sub Form1_Resize(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Resize
@@ -46,6 +52,10 @@ Public Class Candidate_Profile
     End Sub
 
     Private Sub Label3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
 
     End Sub
 End Class

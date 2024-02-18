@@ -97,9 +97,20 @@ Public Class Frame12
         Me.Controls.Add(horizontalLine)
         If electionData.ContainsKey("Election_Name") Then
             Title.Text = electionData("Election_Name").ToString()
+            Title.Font = New Font("Consolas", 30, FontStyle.Regular)
+            Title.Size = New Size(762, 75)
+            Title.Location = New Point(160, 23)
+            Title.TextAlign = ContentAlignment.MiddleLeft
         Else
             MessageBox.Show("Election_Name key not found in the dictionary.")
         End If
+
+        ' Ongoing Election label
+        Label1.Font = New Font("Consolas", 18, FontStyle.Regular)
+        Label1.Size = New Size(289, 41)
+        Label1.Location = New Point(163, 87)
+        Label1.TextAlign = ContentAlignment.MiddleLeft
+
         Dim panel1 As New Panel()
         Me.Controls.Add(panel1)
         panel1.Location = New Point(54, 234)
@@ -151,13 +162,19 @@ Public Class Frame12
                     View_Result.Margin = New Padding(110, 15, 20, 10)
                     Ballot1.Controls.Add(View_Result, 1, i)
                     Dim button_2 As New Button()
-                    button_2.BackColor = ColorTranslator.FromHtml("#74A6FF")
-                    button_2.FlatStyle = FlatStyle.Standard
+                    button_2.Size = New Size(53, 35)
+                    button_2.BackColor = Color.White
+                    button_2.BackgroundImage = My.Resources.Group_13
+                    button_2.BackgroundImageLayout = ImageLayout.Center
+                    button_2.FlatStyle = FlatStyle.Flat
                     button_2.FlatAppearance.BorderSize = 0
+                    'button_2.BackColor = ColorTranslator.FromHtml("#74A6FF")
+                    'button_2.FlatStyle = FlatStyle.Standard
+                    'button_2.FlatAppearance.BorderSize = 0
                     button_2.FlatAppearance.BorderColor = Color.White
                     button_2.Height = 35
                     button_2.Width = 55
-                    button_2.Image = My.Resources.Information_Circle
+                    'button_2.Image = My.Resources.Information_Circle
                     button_2.Margin = New Padding(120, 15, 20, 10)
                     button_2.Name = (i + 1).ToString()
                     AddHandler button_2.Click, AddressOf Button_Info
@@ -189,7 +206,6 @@ Public Class Frame12
         End If
         Button1.BackgroundImage = My.Resources.Group_97
         Button1.BackgroundImageLayout = ImageLayout.Stretch
-
 
     End Sub
     Private Sub ChangeColumnWidth(ByVal tableLayoutPanel As TableLayoutPanel, ByVal columnIndex As Integer, ByVal newWidth As Integer)
@@ -226,6 +242,14 @@ Public Class Frame12
         Dim index As Integer = Integer.Parse(CType(sender, Button).Name)
         Dim Next_Page As New Candidate_Profile()
         Next_Page.Show()
+    End Sub
+
+    Private Sub Title_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Title.Click
+
+    End Sub
+
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+
     End Sub
 End Class
 

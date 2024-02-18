@@ -46,7 +46,7 @@ Public Class Ongoing_Election_Admin
         lblElection2.Font = New Font("Consolas", 18, FontStyle.Regular)
         lblElection2.Size = New Size(289, 41)
         lblElection2.Location = New Point(163, 87)
-        lblElection.TextAlign = ContentAlignment.MiddleLeft
+        lblElection2.TextAlign = ContentAlignment.MiddleLeft
         Me.Controls.Add(lblElection2)
 
         Dim votingOngoingBox As New PictureBox()
